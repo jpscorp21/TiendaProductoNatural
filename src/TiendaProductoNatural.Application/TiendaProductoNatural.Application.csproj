@@ -7,11 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="models" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-rc.1.22426.10" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-rc.1.22426.10" />
+      <ProjectReference Include="..\TiendaProductoNatural.Domain\TiendaProductoNatural.Domain.csproj" />
+      <ProjectReference Include="..\TiendaProductoNatural.Infrastructure\TiendaProductoNatural.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

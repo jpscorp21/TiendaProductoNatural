@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TiendaProductoNatural.Infrastructure.contexts;
+using TiendaProductoNatural.Infrastructure.Contexts;
 
 namespace TiendaProductoNatural.Web.Data.Migrations
 {

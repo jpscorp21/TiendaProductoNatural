@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using TiendaProductoNatural.Application.services;
+using TiendaProductoNatural.Application.Services;
 
 
 namespace TiendaProductoNatural.Application;

@@ -1,9 +1,7 @@
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using TiendaProductoNatural.Application;
 using TiendaProductoNatural.Infrastructure;
-using TiendaProductoNatural.Infrastructure.contexts;
-using TiendaProductoNatural.Web.Data;
+using TiendaProductoNatural.Infrastructure.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 

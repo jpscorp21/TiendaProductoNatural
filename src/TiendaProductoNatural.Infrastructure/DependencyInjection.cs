@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using TiendaProductoNatural.Infrastructure.contexts;
+using TiendaProductoNatural.Infrastructure.Contexts;
 
 namespace TiendaProductoNatural.Infrastructure;
 
