@@ -3,11 +3,10 @@
 public class Producto : IBaseEntity
 {
     public int Id { get; set; }
-    public string Codigo { get; set; }
-    public string Titulo { get; set; }
-    public string Descripcion { get; set; }
+    public string? Codigo { get; set; } 
+    public string Titulo { get; set; } = string.Empty;
+    public string? Descripcion { get; set; } = string.Empty;
     public double Descuento { get; set; }
-    public decimal PrecioEspecial { get; set; }
     public decimal Precio { get; set; }
     public decimal Costo { get; set; }
     public int Stock { get; set; }
