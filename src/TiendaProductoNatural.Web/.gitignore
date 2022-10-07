@@ -455,4 +455,3 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,windows,macos
 appsettings.json
-appsettings.Example.json
