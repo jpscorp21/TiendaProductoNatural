@@ -1,45 +1,45 @@
-﻿using TiendaProductoNatural.Application.Models;
+using TiendaProductoNatural.Application.Models;
 using TiendaProductoNatural.Domain.entities;
 using TiendaProductoNatural.Infrastructure.Contexts;
 
 namespace TiendaProductoNatural.Application.Services;
 
-public class ProductoService
+public class ProductoCategoriaService
 {
     private readonly ApplicationDbContext _context;
 
-    public ProductoService(ApplicationDbContext context)
+    public ProductoCategoriaService(ApplicationDbContext context)
     {
         _context = context ?? throw new ArgumentNullException(nameof(context));
     }
-
-    public IEnumerable<Producto> FindAll()
+    
+    public IEnumerable<ProductoCategoria> FindAll()
     {
-        return new List<Producto>();
+        return new List<ProductoCategoria>();
     }
     
-    public Producto Create(ProductoCategoriaDto body)
+    public ProductoCategoria Create(ProductoCategoriaDto body)
     {
         if (body == null)
         {
             throw new ArgumentNullException(nameof(body));
         }
         
-        return new Producto();
+        return new ProductoCategoria();
     }
     
-    public Producto Update(ProductoCategoriaDto body, int id)
+    public ProductoCategoria Update(ProductoCategoriaDto body, int id)
     {
         if (body == null)
         {
             throw new ArgumentNullException(nameof(body));
         }
         
-        return new Producto();
+        return new ProductoCategoria();
     }
     
-    public Producto Remove(int id)
+    public ProductoCategoria Remove(int id)
     {
-        return new Producto();
+        return new ProductoCategoria();
     }
 }
